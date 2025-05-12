@@ -1,4 +1,4 @@
-package aprendendo.java;
+package aprendendo.java.introducao;
 
 public class Arrays02 {
     public static void main(String[] args) {
@@ -48,34 +48,6 @@ public class Arrays02 {
 
             }
         }
-        int[][]  dias = new int[][];
-        dias[0][0] = 1;
-        dias[0][1] = 2;
-        dias[0][2] = 3;
-        dias[0][3] = 4;
-        dias[0][4] = 5;
-
-        dias[1][0] = 1;
-        dias[1][1] = 2;
-        dias[1][2] = 3;
-        dias[1][3] = 4;
-        dias[1][4] = 5;
-
-        dias[2][0] = 1;
-        dias[2][1] = 2;
-        dias[2][2] = 3;
-        dias[2][3] = 4;
-        dias[2][4] = 5;
-
-        for (int i = 0; i < dias.length; i++) {
-            for (int j = 0; j < dias[0].length; j++) {
-                for (int k = 0; k < dias[0].length; k++) {
-
-                }
-                System.out.println(dias[i][j]);
-
-            }
-
-        }
     }
 }
+
